@@ -5,9 +5,13 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "scripts": {
-    "build": "tsup src/index.ts"
+    "build": "tsup src/index.ts",
+    "test": "vitest"
   },
-  "keywords": ["slug", "markdown"],
+  "keywords": [
+    "slug",
+    "markdown"
+  ],
   "author": {
     "name": "Guilherme Sousa",
     "url": "https://github.com/guilherssousa"
@@ -27,6 +31,7 @@
   },
   "devDependencies": {
     "tsup": "^7.2.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.4"
   }
 }
