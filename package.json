@@ -1,0 +1,24 @@
+{
+  "name": "reslug",
+  "version": "1.0.0",
+  "description": "Context-aware slugger",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Guilherme Sousa",
+    "url": "https://github.com/guilherssousa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilherssousa/reslug"
+  },
+  "bugs": "https://github.com/guilherssousa/reslug/issues",
+  "homepage": "https://github.com/guilherssousa/reslug",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^7.2.0"
+  }
+}
